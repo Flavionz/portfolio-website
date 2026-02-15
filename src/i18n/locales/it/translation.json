@@ -1,0 +1,209 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Chi sono",
+    "skills": "Competenze",
+    "projects": "Progetti",
+    "experience": "Percorso",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "greeting": "Ciao, sono",
+    "name": "Flavio Terenzi",
+    "title": "Full-Stack Developer",
+    "description": "Con una forte passione per il backend e l'architettura software, trasformo problematiche complesse in soluzioni eleganti, privilegiando codice pulito e sistemi scalabili.",
+    "cta": "Contattami"
+  },
+  "about": {
+    "title": "Chi sono",
+    "paragraph1": "Full-Stack Developer con focus su backend e architettura software, appassionato di problem solving e progettazione di soluzioni tecniche. Trasferito in Francia dal 2021, mi interesso alla programmazione da oltre vent'anni, una curiosità nata al liceo informatico di Roma (diploma conseguito nel 2008, equivalente al Baccalauréat francese, con formazione iniziale in sviluppo web: PHP/MySQL) e alimentata da un'esplorazione costante dei paradigmi di sviluppo e delle best practice.",
+    "paragraph2": "Ho formalizzato il mio percorso con una certificazione di Analista Programmatore Java EE a Roma nel 2020, poi il titolo francese di Concepteur Développeur d'Applications (RNCP livello 6). Questi passaggi, realizzati in due contesti linguistici diversi, testimoniano la mia volontà di trasferire le competenze tecniche acquisite in un contesto professionale rigoroso.",
+    "paragraph3": "Il mio approccio privilegia il clean code, la solidità strutturale e l'eco-progettazione. Il mio percorso in psicologia completa questo profilo tecnico apportandomi una migliore comprensione dei bisogni degli utenti e facilitando gli scambi all'interno dei progetti collaborativi.",
+    "paragraph4": "Desidero oggi integrare un team strutturato per lavorare su problematiche di architettura complesse e continuare a crescere in un ambiente esigente.",
+    "quote": "\"Ciò che non posso creare, non lo capisco.\" – Richard Feynman",
+    "location": "Residente a La Maxe, Grand Est, Francia",
+    "status": "Disponibile (In sede / Ibrido / Remoto)"
+  },
+  "skills": {
+    "title": "Competenze Tecniche",
+    "frontend": {
+      "title": "Frontend",
+      "items": [
+        "React & React Native",
+        "TypeScript",
+        "Angular 19",
+        "HTML5 Semantico",
+        "Tailwind CSS",
+        "Integrazione API"
+      ]
+    },
+    "backend": {
+      "title": "Backend & API",
+      "items": [
+        "Java (Spring Boot)",
+        "Architettura a livelli",
+        "RESTful API",
+        "Python",
+        "Maven / Gradle",
+        "Design Pattern"
+      ]
+    },
+    "database": {
+      "title": "Database",
+      "items": [
+        "PostgreSQL / MySQL",
+        "JPA / Hibernate",
+        "SQL & Ottimizzazione",
+        "Database Design (UML)",
+        "Redis",
+        "NoSQL Base"
+      ]
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "items": [
+        "Docker & Compose",
+        "Linux (Amministrazione)",
+        "GitHub Actions",
+        "Pipeline CI/CD",
+        "Git & GitFlow",
+        "Shell Scripting"
+      ]
+    },
+    "tools": {
+      "title": "Strumenti & Metodologie",
+      "items": [
+        "Agile / Scrum",
+        "IntelliJ / VS Code",
+        "Postman",
+        "Figma",
+        "Modellazione UML",
+        "Test Unitari (JUnit)"
+      ]
+    },
+    "security": {
+      "title": "Qualità & Sicurezza",
+      "items": [
+        "Standard OWASP",
+        "Eco-progettazione Web",
+        "Clean Code",
+        "Normative GDPR",
+        "Mockito",
+        "SonarQube"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Progetti in evidenza",
+    "viewAll": "Vedi il mio GitHub",
+    "githubUrl": "https://github.com/Flavionz",
+    "items": [
+      {
+        "title": "Pax Canina - Gestione Club Cinofilo",
+        "description": "Applicazione Full-Stack sviluppata in 6 mesi per la certificazione RNCP Concepteur Développeur d'Applications. Sistema completo di gestione club cinofilo con autenticazione JWT, gestione multi-ruolo (proprietari, addestratori, admin), prenotazione corsi e dashboard dinamiche. Architettura modulare feature-driven.",
+        "tags": ["Spring Boot", "Angular 19", "PostgreSQL", "JWT", "TypeScript", "REST API"],
+        "image": "/assets/images/pax-canina-preview.png",
+        "links": {
+          "github": "https://github.com/Flavionz/pax-canina-frontend",
+          "demo": "https://github.com/Flavionz/pax-canina-backend#readme"
+        },
+        "githubLabel": "Frontend",
+        "demoLabel": "Backend"
+      },
+      {
+        "title": "Auberge Espagnole - E-commerce",
+        "description": "Applicazione e-commerce Full-Stack per prodotti spagnoli autentici. Catalogo prodotti con filtri per categoria, gestione carrello, design responsive e moderno. Stack tecnologico moderno con TypeScript, Prisma ORM e TailwindCSS. Progetto in sviluppo attivo.",
+        "tags": ["React", "TypeScript", "Node.js", "Prisma", "TailwindCSS", "PostgreSQL"],
+        "image": "/assets/images/auberge-preview.png",
+        "links": {
+          "github": "https://github.com/Flavionz/auberge-ecommerce",
+          "demo": "https://github.com/Flavionz/auberge-ecommerce#readme"
+        },
+        "githubLabel": "Codice Sorgente",
+        "demoLabel": "Documentazione"
+      },
+      {
+        "title": "Prossimamente...",
+        "description": "Un nuovo progetto Full-Stack è attualmente in fase di progettazione. Resta connesso per scoprire presto una nuova applicazione che dimostra le mie competenze in architettura software e sviluppo moderno.",
+        "tags": ["In sviluppo", "Full-Stack", "Backend", "Architettura"],
+        "image": "/assets/images/coming-soon.png",
+        "links": {
+          "github": "https://github.com/Flavionz",
+          "demo": "https://github.com/Flavionz"
+        },
+        "githubLabel": "Il mio GitHub",
+        "demoLabel": "Vedi profilo"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Esperienza Professionale",
+    "items": [
+      {
+        "role": "Analista Programmatore",
+        "company": "Apec IT Solutions - La Maxe",
+        "period": "2024",
+        "description": "Analisi dei bisogni dei clienti per sviluppare soluzioni personalizzate. Sviluppo di funzionalità e applicazioni in risposta a requisiti specifici."
+      },
+      {
+        "role": "Responsabile di Reparto",
+        "company": "Stokomani - Semécourt",
+        "period": "2023 - 2024",
+        "description": "Gestione scorte e formazione team. Presentazione prodotti e miglioramento dei processi di inventario."
+      },
+      {
+        "role": "Responsabile Magazzino",
+        "company": "youcigarette.it - Roma",
+        "period": "2010 - 2018",
+        "description": "Gestione scorte e ottimizzazione flussi logistici. Formazione franchisee e monitoraggio performance dei team."
+      },
+      {
+        "role": "Responsabile Informatico",
+        "company": "III Millennio Services - Roma",
+        "period": "2010",
+        "description": "Manutenzione tecnica e gestione dati. Riparazione hardware e supporto tecnico."
+      }
+    ],
+    "education": {
+      "title": "Formazione",
+      "items": [
+        {
+          "degree": "Concepteur Développeur d'Applications (RNCP Livello 6)",
+          "institution": "Metz Numeric School - Francia",
+          "period": "2024 - 2025"
+        },
+        {
+          "degree": "Laurea in Scienze Psicologiche",
+          "institution": "Università Unimercatorum - Roma",
+          "period": "2020 - 2023"
+        },
+        {
+          "degree": "Certificazione Analista Programmatore Java EE 8",
+          "institution": "Centro di Formazione Professionale - Roma",
+          "period": "2019 - 2020"
+        },
+        {
+          "degree": "Diploma di Perito Informatico",
+          "institution": "ITIS G. Armellini - Roma",
+          "period": "2003 - 2008"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contattami",
+    "description": "Interessato al mio profilo? Non esitare a contattarmi per discutere dei tuoi progetti o di una possibile collaborazione.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Messaggio",
+      "send": "Invia messaggio",
+      "success": "Il tuo messaggio è stato inviato con successo!",
+      "error": "Ops! Qualcosa è andato storto."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Flavio Terenzi. Tutti i diritti riservati.",
+    "madeWith": "Portfolio realizzato con React & Tailwind CSS"
+  }
+}

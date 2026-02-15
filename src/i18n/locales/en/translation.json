@@ -1,0 +1,209 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Flavio Terenzi",
+    "title": "Full-Stack Application Developer",
+    "description": "With a strong focus on backend and software architecture, I transform complex problems into elegant solutions, prioritizing clean code and scalable systems.",
+    "cta": "Get in touch"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "Full-Stack Application Developer passionate about problem-solving, software architecture, and technical solution design. Based in France since 2021, I've been interested in programming for over twenty years. a curiosity that began at my IT high school in Rome (graduated in 2008, equivalent to French Baccalauréat, with initial training in web development: PHP/MySQL) and has been nurtured through constant exploration of development paradigms and best practices.",
+    "paragraph2": "I formalized my path with a Java EE Analyst Programmer certification in Rome in 2020, followed by the French Application Designer & Developer certification (RNCP level 6). These steps, completed in two different linguistic contexts, reflect my determination to transfer technical skills into a rigorous professional framework.",
+    "paragraph3": "My approach prioritizes clean code, structural solidity, and eco-design. My background in psychology complements this technical profile by providing a deeper understanding of user needs and facilitating exchanges within collaborative projects.",
+    "paragraph4": "I'm now looking to join a structured team to work on complex architecture challenges and continue growing in a demanding environment.",
+    "quote": "\"What I cannot create, I do not understand.\" – Richard Feynman",
+    "location": "Based in La Maxe, Grand Est, France",
+    "status": "Available (On-site / Hybrid / Remote)"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "frontend": {
+      "title": "Frontend",
+      "items": [
+        "React & React Native",
+        "TypeScript",
+        "Angular 19",
+        "Semantic HTML5",
+        "Tailwind CSS",
+        "API Integration"
+      ]
+    },
+    "backend": {
+      "title": "Backend & APIs",
+      "items": [
+        "Java (Spring Boot)",
+        "Layered Architecture",
+        "RESTful APIs",
+        "Python",
+        "Maven / Gradle",
+        "Design Patterns"
+      ]
+    },
+    "database": {
+      "title": "Databases",
+      "items": [
+        "PostgreSQL / MySQL",
+        "JPA / Hibernate",
+        "SQL & Optimization",
+        "Database Design (UML)",
+        "Redis",
+        "NoSQL Basics"
+      ]
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "items": [
+        "Docker & Compose",
+        "Linux (Administration)",
+        "GitHub Actions",
+        "CI/CD Pipelines",
+        "Git & GitFlow",
+        "Shell Scripting"
+      ]
+    },
+    "tools": {
+      "title": "Tools & Methods",
+      "items": [
+        "Agile / Scrum",
+        "IntelliJ / VS Code",
+        "Postman",
+        "Figma",
+        "UML Modeling",
+        "Unit Testing (JUnit)"
+      ]
+    },
+    "security": {
+      "title": "Quality & Security",
+      "items": [
+        "OWASP Standards",
+        "Web Eco-design",
+        "Clean Code",
+        "GDPR Compliance",
+        "Mockito",
+        "SonarQube"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "viewAll": "View my GitHub",
+    "githubUrl": "https://github.com/Flavionz",
+    "items": [
+      {
+        "title": "Pax Canina - Dog Club Management",
+        "description": "Full-Stack application developed over 6 months for the RNCP Application Designer & Developer certification. Complete dog club management system with JWT authentication, multi-role management (owners, trainers, admin), course booking, and dynamic dashboards. Feature-driven modular architecture.",
+        "tags": ["Spring Boot", "Angular 19", "PostgreSQL", "JWT", "TypeScript", "REST API"],
+        "image": "/assets/images/pax-canina-preview.png",
+        "links": {
+          "github": "https://github.com/Flavionz/pax-canina-frontend",
+          "demo": "https://github.com/Flavionz/pax-canina-backend#readme"
+        },
+        "githubLabel": "Frontend",
+        "demoLabel": "Backend"
+      },
+      {
+        "title": "Auberge Espagnole - E-commerce",
+        "description": "Full-Stack e-commerce application for authentic Spanish products. Product catalog with category filtering, cart management, responsive modern design. Modern tech stack with TypeScript, Prisma ORM, and TailwindCSS. Actively developed project.",
+        "tags": ["React", "TypeScript", "Node.js", "Prisma", "TailwindCSS", "PostgreSQL"],
+        "image": "/assets/images/auberge-preview.png",
+        "links": {
+          "github": "https://github.com/Flavionz/auberge-ecommerce",
+          "demo": "https://github.com/Flavionz/auberge-ecommerce#readme"
+        },
+        "githubLabel": "Source Code",
+        "demoLabel": "Documentation"
+      },
+      {
+        "title": "Coming Soon...",
+        "description": "A new Full-Stack project is currently in the design phase. Stay tuned to discover soon a new application demonstrating my skills in software architecture and modern development.",
+        "tags": ["In Development", "Full-Stack", "Backend", "Architecture"],
+        "image": "/assets/images/coming-soon.png",
+        "links": {
+          "github": "https://github.com/Flavionz",
+          "demo": "https://github.com/Flavionz"
+        },
+        "githubLabel": "My GitHub",
+        "demoLabel": "View Profile"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "items": [
+      {
+        "role": "Analyst Programmer",
+        "company": "Apec IT Solutions - La Maxe",
+        "period": "2024",
+        "description": "Client needs analysis to develop customized solutions. Feature and application development in response to specific requirements."
+      },
+      {
+        "role": "Department Manager",
+        "company": "Stokomani - Semécourt",
+        "period": "2023 - 2024",
+        "description": "Inventory management and team training. Product presentation and improvement of inventory processes."
+      },
+      {
+        "role": "Warehouse Manager",
+        "company": "youcigarette.it - Rome",
+        "period": "2010 - 2018",
+        "description": "Inventory management and logistics flow optimization. Franchisee training and team performance monitoring."
+      },
+      {
+        "role": "IT Manager",
+        "company": "III Millennio Services - Rome",
+        "period": "2010",
+        "description": "Technical maintenance and data management. Hardware repair and technical support."
+      }
+    ],
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "degree": "Application Designer & Developer (RNCP Level 6)",
+          "institution": "Metz Numeric School - France",
+          "period": "2024 - 2025"
+        },
+        {
+          "degree": "Degree in Psychological Sciences",
+          "institution": "Università Unimercatorum - Rome",
+          "period": "2020 - 2023"
+        },
+        {
+          "degree": "Java EE Analyst Programmer Certification",
+          "institution": "Professional Training Center - Rome",
+          "period": "2019 - 2020"
+        },
+        {
+          "degree": "IT Technical Diploma",
+          "institution": "ITIS G. Armellini - Rome",
+          "period": "2003 - 2008"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Interested in my profile? Feel free to contact me to discuss your projects or a potential collaboration.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send message",
+      "success": "Your message has been sent successfully!",
+      "error": "Oops! Something went wrong."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Flavio Terenzi. All rights reserved.",
+    "madeWith": "Portfolio built with React & Tailwind CSS"
+  }
+}
