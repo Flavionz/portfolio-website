@@ -205,5 +205,10 @@
   "footer": {
     "copyright": "© 2026 Flavio Terenzi. Tous droits réservés.",
     "madeWith": "Portfolio réalisé avec React & Tailwind CSS"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "message": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "returnHome": "Retour à l'accueil"
   }
 }
