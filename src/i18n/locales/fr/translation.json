@@ -5,6 +5,7 @@
     "skills": "Compétences",
     "projects": "Projets",
     "experience": "Parcours",
+    "passions": "Hobbies & Intérêts",
     "contact": "Contact"
   },
   "hero": {
@@ -189,6 +190,32 @@
         }
       ]
     }
+  },
+  "passions": {
+    "title": "En dehors du code",
+    "subtitle": "Quelques choses qui me tiennent à cœur en dehors du travail.",
+    "items": [
+      {
+        "title": "Warhammer & Peinture de Figurines",
+        "subtitle": "Tabletop Wargames",
+        "description": "Un hobby à part entière : composer ses listes d'armées, assembler, peindre ses figurines et les affronter sur table. Je joue et peins depuis des années, c'est un univers dans lequel on ne s'ennuie jamais."
+      },
+      {
+        "title": "Échecs & Jeux de Société",
+        "subtitle": "Stratégie & Bonne Compagnie",
+        "description": "Les échecs sont une passion depuis l'enfance, j'aime la profondeur infinie du jeu et le fait qu'on n'arrête jamais d'apprendre. J'apprécie aussi les jeux de société en général, avant tout un moment de partage et de bonne humeur."
+      },
+      {
+        "title": "Lecture",
+        "subtitle": "Tech, Psychologie, Histoire & Fantasy",
+        "description": "Des manuels techniques aux romans de fantasy, en passant par la psychologie et l'histoire. Lire est ma façon de rester curieux et d'explorer des univers très différents les uns des autres."
+      },
+      {
+        "title": "Musculation",
+        "subtitle": "Entraînement & Bien-être",
+        "description": "Je m'entraîne depuis longtemps. C'est ma façon de gérer le stress et la pression du quotidien, un espace où je déconnecte vraiment. La forme physique, c'est juste un bonus agréable."
+      }
+    ]
   },
   "contact": {
     "title": "Contactez-moi",

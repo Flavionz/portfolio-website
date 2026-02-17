@@ -5,6 +5,7 @@
     "skills": "Competenze",
     "projects": "Progetti",
     "experience": "Percorso",
+    "passions": "Hobby & Interessi",
     "contact": "Contatti"
   },
   "hero": {
@@ -189,6 +190,32 @@
         }
       ]
     }
+  },
+  "passions": {
+    "title": "Fuori dal Codice",
+    "subtitle": "Alcune cose che mi stanno davvero a cuore al di fuori del lavoro.",
+    "items": [
+      {
+        "title": "Warhammer & Pittura di Miniature",
+        "subtitle": "Tabletop Wargames",
+        "description": "Non è solo pittura, è comporre liste d'esercito, assemblare i modelli e scendere in campo sul tavolo. Anche dopo tanti anni, è un hobby che non stanca mai."
+      },
+      {
+        "title": "Scacchi & Giochi da Tavolo",
+        "subtitle": "Strategia & Buona Compagnia",
+        "description": "Gli scacchi li porto con me dall'infanzia. Mi piace quanto siano profondi, c'è sempre qualcosa di nuovo da testare. I giochi da tavolo in generale sono un altra cosa che amo, una bella serata con le persone giuste non ha prezzo."
+      },
+      {
+        "title": "Lettura",
+        "subtitle": "Tech, Psicologia, Storia & Fantasy",
+        "description": "Dai manuali tecnici ai romanzi fantasy, passando per la psicologia e la storia. Leggere è il mio modo di restare curioso e di abitare mondi e contesti diversi che a volte non hanno niente in comune tra loro ed è proprio questo il bello."
+      },
+      {
+        "title": "Allenamento con i Pesi",
+        "subtitle": "Allenamento & Benessere",
+        "description": "Mi alleno da tanto, ma non per l'estetica. È il mio modo di gestire lo stress e staccare davvero la testa. In un mondo che non rallenta mai, avere quello spazio fa la differenza. Il fisico è solo un bel risultato collaterale."
+      }
+    ]
   },
   "contact": {
     "title": "Contattami",

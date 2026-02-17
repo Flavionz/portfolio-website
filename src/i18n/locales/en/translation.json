@@ -5,6 +5,7 @@
     "skills": "Skills",
     "projects": "Projects",
     "experience": "Experience",
+    "passions": "Hobbies & Interests",
     "contact": "Contact"
   },
   "hero": {
@@ -189,6 +190,32 @@
         }
       ]
     }
+  },
+  "passions": {
+    "title": "Outside the Code",
+    "subtitle": "A few things I genuinely care about beyond work.",
+    "items": [
+      {
+        "title": "Warhammer & Miniature Painting",
+        "subtitle": "Tabletop Wargames",
+        "description": "More than just painting, it's building army lists, assembling models, and playing them on the table. I've been into it for years. The hobby never gets old."
+      },
+      {
+        "title": "Chess & Board Games",
+        "subtitle": "Strategy & Good Company",
+        "description": "Chess has been with me since childhood. I love how deep it goes, there's always something new to understand. Board games in general are also a big yes: nothing beats a good session with the right people."
+      },
+      {
+        "title": "Reading",
+        "subtitle": "Tech, Psychology, History & Fantasy",
+        "description": "From technical books to fantasy novels, through psychology and history. Reading keeps me curious and takes me places that have nothing to do with each other, which is exactly the point."
+      },
+      {
+        "title": "Weightlifting",
+        "subtitle": "Training & Wellbeing",
+        "description": "I've been training for a long time, not for the aesthetics. It's how I manage stress and clear my head. In a world that rarely slows down, having that space matters. The physical side is just a nice bonus."
+      }
+    ]
   },
   "contact": {
     "title": "Get in Touch",
