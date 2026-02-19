@@ -102,7 +102,7 @@
       {
         "title": "Pax Canina - Gestione Club Cinofilo",
         "description": "Applicazione Full-Stack sviluppata in 6 mesi per la certificazione RNCP Concepteur Développeur d'Applications. Sistema completo di gestione club cinofilo con autenticazione JWT, gestione multi-ruolo (proprietari, addestratori, admin), prenotazione corsi e dashboard dinamiche. Architettura modulare feature-driven.",
-        "tags": ["Spring Boot", "Angular 19", "PostgreSQL", "JWT", "TypeScript", "REST API"],
+        "tags": ["Spring Boot", "Angular 19", "MySQL", "JWT", "TypeScript", "REST API"],
         "image": "/assets/images/pax-canina-preview.png",
         "links": {
           "github": "https://github.com/Flavionz/pax-canina-frontend",

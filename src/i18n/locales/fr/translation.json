@@ -102,7 +102,7 @@
       {
         "title": "Pax Canina - Gestion de Club Canin",
         "description": "Application Full-Stack développée en 6 mois dans le cadre de mon titre RNCP Concepteur Développeur d'Applications. Système complet de gestion pour club canin avec authentification JWT, gestion multi-rôles (propriétaires, entraîneurs, admin), réservation de cours et tableaux de bord dynamiques. Architecture modulaire feature-driven.",
-        "tags": ["Spring Boot", "Angular 19", "PostgreSQL", "JWT", "TypeScript", "REST API"],
+        "tags": ["Spring Boot", "Angular 19", "MySQL", "JWT", "TypeScript", "REST API"],
         "image": "/assets/images/pax-canina-preview.png",
         "links": {
           "github": "https://github.com/Flavionz/pax-canina-frontend",

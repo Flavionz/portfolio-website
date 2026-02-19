@@ -102,7 +102,7 @@
       {
         "title": "Pax Canina - Dog Club Management",
         "description": "Full-Stack application developed over 6 months for the RNCP Application Designer & Developer certification. Complete dog club management system with JWT authentication, multi-role management (owners, trainers, admin), course booking, and dynamic dashboards. Feature-driven modular architecture.",
-        "tags": ["Spring Boot", "Angular 19", "PostgreSQL", "JWT", "TypeScript", "REST API"],
+        "tags": ["Spring Boot", "Angular 19", "MySQL", "JWT", "TypeScript", "REST API"],
         "image": "/assets/images/pax-canina-preview.png",
         "links": {
           "github": "https://github.com/Flavionz/pax-canina-frontend",
