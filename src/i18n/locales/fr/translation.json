@@ -12,7 +12,7 @@
     "greeting": "Bonjour, je suis",
     "name": "Flavio Terenzi",
     "title": "Développeur Full-Stack",
-    "description": "Avec une forte appétence pour le backend et l'architecture logicielle, je transforme des problématiques complexes en solutions élégantes, en privilégiant code propre et systèmes évolutifs.",
+    "description": "Fort d'un parcours multidisciplinaire, j'allie vision analytique et expertise technique pour créer des solutions robustes et élégantes, avec une affinité particulière pour le backend et l'architecture logicielle.",
     "cta": "Me contacter"
   },
   "about": {
@@ -141,35 +141,40 @@
     "title": "Expérience Professionnelle",
     "items": [
       {
+        "role": "Développeur Full Stack",
+        "company": "Freelance - En recherche active de CDI",
+        "period": "Octobre 2025 - Présent",
+        "description": "En attendant d'intégrer une équipe structurée, je développe des projets Full-Stack pour des clients locaux, en maintenant mes compétences techniques à jour et en explorant de nouvelles solutions architecturales."      },
+      {
         "role": "Analyste Programmeur",
         "company": "Apec IT Solutions - La Maxe",
-        "period": "2024",
-        "description": "Analyse des besoins clients pour développer des solutions personnalisées. Développement de fonctionnalités et d'applications en réponse aux exigences spécifiques."
+        "period": "Mars 2024 - Juillet 2024",
+        "description": "Seul développeur au sein d'une jeune structure locale. Refonte du site corporate et création d'un site vitrine pour un client (Fanfare locale). Stack : React, Tailwind CSS."
       },
       {
-        "role": "Responsable de Rayon",
+        "role": "Responsable de Rayon Loisirs",
         "company": "Stokomani - Semécourt",
-        "period": "2023 - 2024",
-        "description": "Gestion des stocks et formation des équipes. Présentation des produits et amélioration des processus d'inventaire."
+        "period": "Juillet 2023 - Janvier 2024",
+        "description": "Gestion opérationnelle du secteur Loisirs : flux et valorisation des stocks, merchandising dynamique, analyse des ventes et management d'équipe."
       },
       {
         "role": "Responsable Technique et Opérationnel Réseau",
         "company": "youcigarette.it - Rome",
-        "period": "2011 - 2019",
-        "description": "Responsable de la formation technique et commerciale pour un réseau de 50 franchises en Italie et 2 en Espagne."
+        "period": "Mars 2011 - Janvier 2019",
+        "description": "Formation technique et commerciale pour 50 franchises (Italie) et 2 (Espagne). Référent technique réseau, optimisation logistique et support client expert."
       },
       {
         "role": "Responsable Informatique (Job étudiant)",
         "company": "III Millennio Services - Rome",
-        "period": "2010",
-        "description": "Maintenance technique et gestion des données. Réparation de matériel informatique et support technique."
+        "period": "Janvier 2010 - Décembre 2010",
+        "description": "Gestion de parc informatique, administration de bases de données clients, support technique et digitalisation de processus administratifs."
       }
     ],
     "education": {
       "title": "Formation",
       "items": [
         {
-          "degree": "Concepteur Développeur d'Applications (RNCP Niveau 6)",
+          "degree": "Concepteur Développeur d'Applications (RNCP Niveau 6 - Équiv. BAC+3)",
           "institution": "Metz Numeric School - France",
           "period": "2024 - 2025"
         },
@@ -180,8 +185,13 @@
         },
         {
           "degree": "Certification Analyste Programmeur Java EE 8",
-          "institution": "Centre de Formation Professionnelle - Rome",
+          "institution": "Centre de Formation Professionnelle CEFI - Rome",
           "period": "2019 - 2020"
+        },
+        {
+          "degree": "Diplôme en Sciences Politiques - Public Administration",
+          "institution": "Università degli Studi Roma Tre - Rome",
+          "period": "2008 - 2011"
         },
         {
           "degree": "Baccalauréat en Informatique",

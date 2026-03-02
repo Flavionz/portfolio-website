@@ -12,7 +12,7 @@
     "greeting": "Ciao, sono",
     "name": "Flavio Terenzi",
     "title": "Sviluppatore Full-Stack",
-    "description": "Con una forte passione per il backend e l'architettura software, trasformo problematiche complesse in soluzioni eleganti, privilegiando codice pulito e sistemi scalabili.",
+    "description": "Con un percorso multidisciplinare, unisco visione analitica ed expertise tecnica per creare soluzioni robuste ed eleganti, con una particolare affinità per lo sviluppo backend e l'architettura software.",
     "cta": "Contattami"
   },
   "about": {
@@ -141,40 +141,46 @@
     "title": "Esperienza Professionale",
     "items": [
       {
+        "role": "Sviluppatore Full Stack",
+        "company": "Freelance - In ricerca attiva di un ruolo a tempo indeterminato",
+        "period": "Ottobre 2025 - Presente",
+        "description": "In attesa di entrare in un team strutturato, sviluppo progetti Full-Stack per clienti locali, mantenendo le mie competenze tecniche aggiornate e approfondendo nuove soluzioni architetturali."
+      },
+      {
         "role": "Analista Programmatore",
         "company": "Apec IT Solutions - La Maxe",
-        "period": "2024",
-        "description": "Analisi dei bisogni dei clienti per sviluppare soluzioni personalizzate. Sviluppo di funzionalità e applicazioni in risposta a requisiti specifici."
+        "period": "Marzo 2024 - Luglio 2024",
+        "description": "Unico sviluppatore all'interno di una giovane realtà locale. Ho curato il restyling del sito aziendale e la creazione di un sito vetrina per un cliente esterno (banda musicale locale). Stack: React, Tailwind CSS."
       },
       {
         "role": "Responsabile di Reparto",
         "company": "Stokomani - Semécourt",
-        "period": "2023 - 2024",
-        "description": "Gestione scorte e formazione team. Presentazione prodotti e miglioramento dei processi di inventario."
+        "period": "luglio 2023 - Gennaio 2024",
+        "description": "Gestione operativa del reparto tempo libero e giocattoli: flussi e valorizzazione delle scorte, merchandising dinamico, analisi delle vendite e coordinamento del team"
       },
       {
-        "role": "Responsabile Magazzino",
-        "company": "youcigarette.it - Roma",
-        "period": "2010 - 2018",
-        "description": "Gestione scorte e ottimizzazione flussi logistici. Formazione franchisee e monitoraggio performance dei team."
+        "role": "Responsabile Tecnico e Operativo di Rete",
+        "company": "youcigarette.it - Rome",
+        "period": "Marzo 2011 - Gennaio 2019",
+        "description": "Formazione tecnica e commerciale per 50 franchising in Italia e 2 in Spagna. Referente tecnico della rete, ottimizzazione logistica e supporto clienti esperto."
       },
       {
-        "role": "Responsabile Informatico",
-        "company": "III Millennio Services - Roma",
-        "period": "2010",
-        "description": "Manutenzione tecnica e gestione dati. Riparazione hardware e supporto tecnico."
+        "role": "Responsabile Informatico (Lavoro studentesco)",
+        "company": "III Millennio Services - Rome",
+        "period": "Gennaio 2010 - Dicembre 2010",
+        "description": "Gestione del parco macchine (Computer,stampanti,router), amministrazione dei database clienti, supporto tecnico e digitalizzazione dei processi amministrativi."
       }
     ],
     "education": {
       "title": "Formazione",
       "items": [
         {
-          "degree": "Concepteur Développeur d'Applications (RNCP Livello 6)",
+          "degree": "Concepteur Développeur d'Applications (RNCP Livello 6 - Equiv. Laurea Triennale)",
           "institution": "Metz Numeric School - Francia",
           "period": "2024 - 2025"
         },
         {
-          "degree": "Laurea in Scienze Psicologiche",
+          "degree": "Laurea Triennale in Scienze Psicologiche",
           "institution": "Università Unimercatorum - Roma",
           "period": "2020 - 2023"
         },
@@ -182,6 +188,11 @@
           "degree": "Certificazione Analista Programmatore Java EE 8",
           "institution": "Centro di Formazione Professionale - Roma",
           "period": "2019 - 2020"
+        },
+        {
+          "degree": "Laurea Triennale in Scienze Politiche (indirizzo Pubblica Amministrazione)",
+          "institution": "Università degli studi Roma Tre - Roma",
+          "period": "2008 - 2011"
         },
         {
           "degree": "Diploma di Perito Informatico",

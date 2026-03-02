@@ -12,12 +12,12 @@
     "greeting": "Hi, I'm",
     "name": "Flavio Terenzi",
     "title": "Full-Stack Developer",
-    "description": "With a strong focus on backend and software architecture, I transform complex problems into elegant solutions, prioritizing clean code and scalable systems.",
-    "cta": "Get in touch"
+    "description": "With a multidisciplinary background, I combine analytical vision and technical expertise to build robust and elegant solutions, with a particular affinity for backend development and software architecture.",
+    "cta": "Contact me"
   },
   "about": {
     "title": "About Me",
-    "paragraph1": "Full-Stack Developer passionate about problem-solving, software architecture, and technical solution design. Based in France since 2021, I've been interested in programming for over twenty years. a curiosity that began at my IT high school in Rome (graduated in 2008, equivalent to French Baccalauréat, with initial training in web development: PHP/MySQL) and has been nurtured through constant exploration of development paradigms and best practices.",
+    "paragraph1": "Full-Stack Developer passionate about problem-solving, software architecture and technical solution design. Based in France since 2021, I've been interested in programming for over twenty years, a curiosity that began at my IT high school in Rome (graduated in 2008, equivalent to French Baccalauréat, with initial training in web development: PHP/MySQL) and has been nurtured through constant exploration of development paradigms and best practices.",
     "paragraph2": "I formalized my path with a Java EE Analyst Programmer certification in Rome in 2020, followed by the French Application Designer & Developer certification (RNCP level 6). These steps, completed in two different linguistic contexts, reflect my determination to transfer technical skills into a rigorous professional framework.",
     "paragraph3": "My approach prioritizes clean code, structural solidity, and eco-design. My background in psychology complements this technical profile by providing a deeper understanding of user needs and facilitating exchanges within collaborative projects.",
     "paragraph4": "I'm now looking to join a structured team to work on complex architecture challenges and continue growing in a demanding environment.",
@@ -141,50 +141,60 @@
     "title": "Professional Experience",
     "items": [
       {
+        "role": "Full Stack Developer",
+        "company": "Freelance - Actively seeking a permanent position",
+        "period": "October 2025 - Present",
+        "description": "While looking for the right team to join, I am delivering Full-Stack solutions for local clients. I am focused on keeping my technical edge sharp and exploring new software architectures."      },
+      {
         "role": "Analyst Programmer",
         "company": "Apec IT Solutions - La Maxe",
-        "period": "2024",
-        "description": "Client needs analysis to develop customized solutions. Feature and application development in response to specific requirements."
+        "period": "March 2024 - July 2024",
+        "description": "Sole developer in a local startup environment. Led the corporate website redesign and built a showcase website for a client (local brass band). Stack: React, Tailwind CSS."
       },
       {
-        "role": "Department Manager",
+        "role": "Department Manager (Leisure)",
         "company": "Stokomani - Semécourt",
-        "period": "2023 - 2024",
-        "description": "Inventory management and team training. Product presentation and improvement of inventory processes."
+        "period": "July 2023 - January 2024",
+        "description": "Operational management of the Leisure department: stock optimization and valuation, dynamic merchandising, sales analysis, and team leadership."
       },
       {
-        "role": "Warehouse Manager",
+        "role": "Technical & Network Operations Manager",
         "company": "youcigarette.it - Rome",
-        "period": "2010 - 2018",
-        "description": "Inventory management and logistics flow optimization. Franchisee training and team performance monitoring."
+        "period": "March 2011 - January 2019",
+        "description": "Technical and sales training for 50 franchises (Italy) and 2 (Spain). Network technical lead, logistics optimization, and expert customer support."
       },
       {
-        "role": "IT Manager",
+        "role": "IT Manager (Student Job)",
         "company": "III Millennio Services - Rome",
-        "period": "2010",
-        "description": "Technical maintenance and data management. Hardware repair and technical support."
+        "period": "January 2010 - December 2010",
+        "description": "IT infrastructure management, client database administration, technical support, and digitalization of administrative processes."
       }
     ],
     "education": {
       "title": "Education",
       "items": [
         {
-          "degree": "Application Designer & Developer (RNCP Level 6)",
+          "degree": "Application Developer (RNCP Level 6 / Bachelor's Equivalent)",
           "institution": "Metz Numeric School - France",
           "period": "2024 - 2025"
         },
         {
-          "degree": "Degree in Psychological Sciences",
+          "degree": "Bachelor's Degree in Psychological Sciences",
           "institution": "Università Unimercatorum - Rome",
           "period": "2020 - 2023"
         },
         {
-          "degree": "Java EE Analyst Programmer Certification",
-          "institution": "Professional Training Center - Rome",
+          "degree": "Java EE 8 Analyst Programmer Certification",
+          "institution": "Professional Training Center CEFI - Rome",
           "period": "2019 - 2020"
         },
         {
-          "degree": "IT Technical Diploma",
+          "degree": "Bachelor's Degree in Political Science and Public Administration",
+          "institution": "Università degli Studi Roma Tre - Rome",
+          "period": "2008 - 2011"
+        },
+        {
+          "degree": "Technical High School Diploma in Computer Science",
           "institution": "ITIS G. Armellini - Rome",
           "period": "2003 - 2008"
         }
