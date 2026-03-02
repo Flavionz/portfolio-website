@@ -217,9 +217,82 @@
       }
     ]
   },
+  "privacy": {
+    "title": "Informativa sulla Privacy",
+    "backToHome": "Torna alla home",
+    "lastUpdate": "Ultimo aggiornamento",
+    "date": "Marzo 2026",
+    "intro": "Questo portfolio personale rispetta la tua privacy. Nessun dato personale viene raccolto, memorizzato o venduto. Questa pagina spiega in modo trasparente come funziona questo sito.",
+    "sections": [
+      {
+        "title": "1. Identità del Titolare",
+        "content": "Titolare del trattamento: Flavio Terenzi\nContatto: flavionz@hotmail.it\nSito web: https://flavio-terenzi.vercel.app"
+      },
+      {
+        "title": "2. Dati Raccolti",
+        "content": [
+          "Form di contatto: nome, indirizzo email, messaggio (solo se mi invii un messaggio)",
+          "Preferenze interfaccia: tema (chiaro/scuro), lingua (FR/EN/IT) — memorizzate localmente nel tuo browser tramite localStorage"
+        ]
+      },
+      {
+        "title": "3. Finalità del Trattamento",
+        "content": "I dati del form di contatto vengono utilizzati esclusivamente per rispondere alle tue richieste professionali. Le preferenze di interfaccia permettono di memorizzare le tue scelte di navigazione."
+      },
+      {
+        "title": "4. Base Giuridica",
+        "content": "Consenso: inviando il form, acconsenti al trattamento dei tuoi dati per rispondere alla tua richiesta."
+      },
+      {
+        "title": "5. Destinatari dei Dati",
+        "content": [
+          "EmailJS: servizio terzo sicuro utilizzato per trasmettere i messaggi (nessun dato viene conservato da EmailJS)",
+          "Flavio Terenzi: ricezione dei messaggi nella mia casella email personale"
+        ]
+      },
+      {
+        "title": "6. Periodo di Conservazione",
+        "content": [
+          "Messaggi del form: non memorizzati su server. Transitano solo attraverso EmailJS e arrivano nella mia email",
+          "Preferenze (tema/lingua): conservate nel tuo browser fino alla cancellazione manuale dei dati locali"
+        ]
+      },
+      {
+        "title": "7. I Tuoi Diritti (GDPR)",
+        "content": [
+          "Diritto di accesso: ottenere una copia dei tuoi dati",
+          "Diritto di rettifica: correggere i tuoi dati",
+          "Diritto alla cancellazione: richiedere l'eliminazione dei tuoi dati",
+          "Diritto di opposizione: opporti al trattamento",
+          "Diritto alla portabilità: recuperare i tuoi dati",
+          "Per esercitare questi diritti: flavionz@hotmail.it"
+        ]
+      },
+      {
+        "title": "8. Cookie e Tecnologie Simili",
+        "content": "Questo sito NON utilizza NESSUN cookie di tracking, pubblicità o analytics. Le preferenze di interfaccia (tema, lingua) sono memorizzate tramite localStorage, tecnologia esente da consenso in quanto strettamente necessaria per l'esperienza utente."
+      },
+      {
+        "title": "9. Sicurezza",
+        "content": [
+          "Protocollo HTTPS: tutte le comunicazioni sono cifrate",
+          "Nessun database: nessuna memorizzazione lato server",
+          "EmailJS sicuro: trasmissione cifrata dei messaggi"
+        ]
+      },
+      {
+        "title": "10. Modifiche a questa Informativa",
+        "content": "Questa informativa può essere aggiornata. La data dell'ultima modifica è indicata in cima a questa pagina. Le modifiche significative verranno segnalate nella homepage."
+      }
+    ],
+    "contactTitle": "Domande sui tuoi dati?",
+    "contactText": "Per qualsiasi domanda riguardante i tuoi dati personali o l'esercizio dei tuoi diritti:"
+  },
   "contact": {
     "title": "Contattami",
     "description": "Interessato al mio profilo? Non esitare a contattarmi per discutere dei tuoi progetti o di una possibile collaborazione.",
+    "privacyNote": "I tuoi dati non vengono mai memorizzati. Questo form invia il tuo messaggio direttamente tramite un servizio sicuro.",
+    "privacyLink": "Scopri di più",
     "form": {
       "name": "Nome",
       "email": "Email",
@@ -231,7 +304,8 @@
   },
   "footer": {
     "copyright": "© 2026 Flavio Terenzi. Tutti i diritti riservati.",
-    "madeWith": "Portfolio realizzato con React & Tailwind CSS"
+    "madeWith": "Portfolio realizzato con React & Tailwind CSS",
+    "privacy": "Privacy & Cookie"
   },
   "notFound": {
     "title": "Pagina non trovata",

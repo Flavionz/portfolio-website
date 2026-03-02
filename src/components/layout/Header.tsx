@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Container } from '../ui/Container';
 import { ThemeToggle } from '../ui/ThemeToggle';
 import { LanguageSwitcher } from '../ui/LanguageSwitcher';
-import { MenuIcon, XIcon } from 'lucide-react';
+import { GithubIcon, MenuIcon, XIcon } from 'lucide-react';
 
 export const Header: React.FC = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -32,28 +34,26 @@ export const Header: React.FC = () => {
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
-
     const targetId = href.replace('#', '');
-    const element = document.getElementById(targetId);
 
-    if (element) {
-      const isMobileMenuOpen = mobileMenuOpen;
+    if (mobileMenuOpen) {
+      setMobileMenuOpen(false);
+    }
 
-      if (isMobileMenuOpen) {
-        setMobileMenuOpen(false);
-        setTimeout(() => {
+    if (location.pathname !== '/') {
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById(targetId);
+        if (element) {
           const offsetTop = element.offsetTop - 80;
-          window.scrollTo({
-            top: offsetTop,
-            behavior: 'smooth'
-          });
-        }, 300);
-      } else {
+          window.scrollTo({ top: offsetTop, behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      const element = document.getElementById(targetId);
+      if (element) {
         const offsetTop = element.offsetTop - 80;
-        window.scrollTo({
-          top: offsetTop,
-          behavior: 'smooth'
-        });
+        window.scrollTo({ top: offsetTop, behavior: 'smooth' });
       }
     }
   };
@@ -62,9 +62,22 @@ export const Header: React.FC = () => {
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}>
         <Container>
           <div className="flex items-center justify-between py-4">
-            <Link to="/" className="text-2xl font-bold">
-              FT
-            </Link>
+            <div className="flex items-center gap-3">
+              <Link to="/" className="text-2xl font-bold">
+                FT
+              </Link>
+
+              {/* AGGIUNTO IL TAG <a QUI SOTTO */}
+              <a
+                  href="https://github.com/Flavionz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+                  aria-label="GitHub Profile"
+              >
+                <GithubIcon className="h-5 w-5" />
+              </a>
+            </div>
 
             <nav className="hidden md:flex items-center gap-8">
               <ul className="flex items-center gap-6">

@@ -217,9 +217,82 @@
       }
     ]
   },
+  "privacy": {
+    "title": "Privacy Policy",
+    "backToHome": "Back to home",
+    "lastUpdate": "Last updated",
+    "date": "March 2026",
+    "intro": "This personal portfolio respects your privacy. No personal data is collected, stored, or sold. This page transparently explains how this website works.",
+    "sections": [
+      {
+        "title": "1. Data Controller Identity",
+        "content": "Data Controller: Flavio Terenzi\nContact: flavionz@hotmail.it\nWebsite: https://flavio-terenzi.vercel.app"
+      },
+      {
+        "title": "2. Data Collected",
+        "content": [
+          "Contact form: name, email address, message (only if you send me a message)",
+          "Interface preferences: theme (light/dark), language (FR/EN/IT) — stored locally in your browser via localStorage"
+        ]
+      },
+      {
+        "title": "3. Purpose of Processing",
+        "content": "Contact form data is used solely to respond to your professional inquiries. Interface preferences allow us to remember your browsing choices."
+      },
+      {
+        "title": "4. Legal Basis",
+        "content": "Consent: by submitting the form, you consent to the processing of your data to respond to your request."
+      },
+      {
+        "title": "5. Data Recipients",
+        "content": [
+          "EmailJS: secure third-party service used to transmit messages (no data is stored by EmailJS)",
+          "Flavio Terenzi: reception of messages in my personal inbox"
+        ]
+      },
+      {
+        "title": "6. Retention Period",
+        "content": [
+          "Form messages: not stored on servers. Transit only through EmailJS and arrive in my inbox",
+          "Preferences (theme/language): stored in your browser until manual deletion of local data"
+        ]
+      },
+      {
+        "title": "7. Your Rights (GDPR)",
+        "content": [
+          "Right of access: obtain a copy of your data",
+          "Right of rectification: correct your data",
+          "Right to erasure: request deletion of your data",
+          "Right to object: oppose processing",
+          "Right to data portability: retrieve your data",
+          "To exercise these rights: flavionz@hotmail.it"
+        ]
+      },
+      {
+        "title": "8. Cookies and Similar Technologies",
+        "content": "This site uses NO tracking, advertising, or analytics cookies. Interface preferences (theme, language) are stored via localStorage, a technology exempt from consent as it is strictly necessary for user experience."
+      },
+      {
+        "title": "9. Security",
+        "content": [
+          "HTTPS protocol: all communications are encrypted",
+          "No database: no server-side storage",
+          "Secure EmailJS: encrypted message transmission"
+        ]
+      },
+      {
+        "title": "10. Policy Changes",
+        "content": "This policy may be updated. The last modification date is indicated at the top of this page. Significant changes will be announced on the homepage."
+      }
+    ],
+    "contactTitle": "Questions about your data?",
+    "contactText": "For any questions regarding your personal data or exercising your rights:"
+  },
   "contact": {
-    "title": "Get in Touch",
+    "title": "Contact me",
     "description": "Interested in my profile? Feel free to contact me to discuss your projects or a potential collaboration.",
+    "privacyNote": "Your data is never stored. This form sends your message directly via a secure service.",
+    "privacyLink": "Learn more",
     "form": {
       "name": "Name",
       "email": "Email",
@@ -231,7 +304,8 @@
   },
   "footer": {
     "copyright": "© 2026 Flavio Terenzi. All rights reserved.",
-    "madeWith": "Portfolio built with React & Tailwind CSS"
+    "madeWith": "Portfolio built with React & Tailwind CSS",
+    "privacy": "Privacy & Cookies"
   },
   "notFound": {
     "title": "Page not found",

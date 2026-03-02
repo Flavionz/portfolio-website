@@ -217,9 +217,82 @@
       }
     ]
   },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "backToHome": "Retour à l'accueil",
+    "lastUpdate": "Dernière mise à jour",
+    "date": "Mars 2026",
+    "intro": "Ce portfolio personnel respecte votre vie privée. Aucune donnée personnelle n'est collectée, stockée ou vendue. Cette page explique en toute transparence comment fonctionne ce site.",
+    "sections": [
+      {
+        "title": "1. Identité du Responsable",
+        "content": "Responsable du traitement : Flavio Terenzi\nContact : flavionz@hotmail.it\nSite web : https://flavio-terenzi.vercel.app"
+      },
+      {
+        "title": "2. Données Collectées",
+        "content": [
+          "Formulaire de contact : nom, adresse email, message (uniquement si vous m'envoyez un message)",
+          "Préférences d'interface : thème (clair/sombre), langue (FR/EN/IT) — stockées localement dans votre navigateur via localStorage"
+        ]
+      },
+      {
+        "title": "3. Finalité du Traitement",
+        "content": "Les données du formulaire de contact sont utilisées uniquement pour répondre à vos demandes professionnelles. Les préférences d'interface permettent de mémoriser vos choix de navigation."
+      },
+      {
+        "title": "4. Base Juridique",
+        "content": "Consentement : en envoyant le formulaire, vous consentez au traitement de vos données pour répondre à votre demande."
+      },
+      {
+        "title": "5. Destinataires des Données",
+        "content": [
+          "EmailJS : service tiers sécurisé utilisé pour transmettre les messages (aucune donnée n'est conservée par EmailJS)",
+          "Flavio Terenzi : réception des messages dans ma boîte email personnelle"
+        ]
+      },
+      {
+        "title": "6. Durée de Conservation",
+        "content": [
+          "Messages du formulaire : non stockés sur des serveurs. Transitent uniquement via EmailJS et arrivent dans ma boîte email",
+          "Préférences (thème/langue) : conservées dans votre navigateur jusqu'à suppression manuelle des données locales"
+        ]
+      },
+      {
+        "title": "7. Vos Droits (RGPD)",
+        "content": [
+          "Droit d'accès : obtenir une copie de vos données",
+          "Droit de rectification : corriger vos données",
+          "Droit de suppression : demander l'effacement de vos données",
+          "Droit d'opposition : vous opposer au traitement",
+          "Droit à la portabilité : récupérer vos données",
+          "Pour exercer ces droits : flavionz@hotmail.it"
+        ]
+      },
+      {
+        "title": "8. Cookies et Technologies Similaires",
+        "content": "Ce site n'utilise AUCUN cookie de tracking, publicité ou analytics. Les préférences d'interface (thème, langue) sont stockées via localStorage, technologie exemptée de consentement selon la CNIL car strictement nécessaire à l'expérience utilisateur."
+      },
+      {
+        "title": "9. Sécurité",
+        "content": [
+          "Protocole HTTPS : toutes les communications sont chiffrées",
+          "Aucune base de données : aucun stockage côté serveur",
+          "EmailJS sécurisé : transmission chiffrée des messages"
+        ]
+      },
+      {
+        "title": "10. Modifications de cette Politique",
+        "content": "Cette politique peut être mise à jour. La date de dernière modification est indiquée en haut de cette page. Les changements significatifs seront signalés sur la page d'accueil."
+      }
+    ],
+    "contactTitle": "Questions sur vos données ?",
+    "contactText": "Pour toute question concernant vos données personnelles ou l'exercice de vos droits :"
+  },
   "contact": {
     "title": "Contactez-moi",
     "description": "Intéressé par mon profil ? N'hésitez pas à me contacter pour discuter de vos projets ou d'une éventuelle collaboration.",
+    "privacyNote": "Vos données ne sont jamais stockées. Ce formulaire envoie votre message directement via un service sécurisé.",
+    "privacyLink": "En savoir plus",
     "form": {
       "name": "Nom",
       "email": "Email",
@@ -231,7 +304,8 @@
   },
   "footer": {
     "copyright": "© 2026 Flavio Terenzi. Tous droits réservés.",
-    "madeWith": "Portfolio réalisé avec React & Tailwind CSS"
+    "madeWith": "Portfolio réalisé avec React & Tailwind CSS",
+    "privacy": "Confidentialité & Cookies"
   },
   "notFound": {
     "title": "Page introuvable",
