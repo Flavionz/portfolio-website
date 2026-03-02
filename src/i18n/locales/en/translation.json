@@ -11,13 +11,13 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Flavio Terenzi",
-    "title": "Full-Stack Application Developer",
+    "title": "Full-Stack Developer",
     "description": "With a strong focus on backend and software architecture, I transform complex problems into elegant solutions, prioritizing clean code and scalable systems.",
     "cta": "Get in touch"
   },
   "about": {
     "title": "About Me",
-    "paragraph1": "Full-Stack Application Developer passionate about problem-solving, software architecture, and technical solution design. Based in France since 2021, I've been interested in programming for over twenty years. a curiosity that began at my IT high school in Rome (graduated in 2008, equivalent to French Baccalauréat, with initial training in web development: PHP/MySQL) and has been nurtured through constant exploration of development paradigms and best practices.",
+    "paragraph1": "Full-Stack Developer passionate about problem-solving, software architecture, and technical solution design. Based in France since 2021, I've been interested in programming for over twenty years. a curiosity that began at my IT high school in Rome (graduated in 2008, equivalent to French Baccalauréat, with initial training in web development: PHP/MySQL) and has been nurtured through constant exploration of development paradigms and best practices.",
     "paragraph2": "I formalized my path with a Java EE Analyst Programmer certification in Rome in 2020, followed by the French Application Designer & Developer certification (RNCP level 6). These steps, completed in two different linguistic contexts, reflect my determination to transfer technical skills into a rigorous professional framework.",
     "paragraph3": "My approach prioritizes clean code, structural solidity, and eco-design. My background in psychology complements this technical profile by providing a deeper understanding of user needs and facilitating exchanges within collaborative projects.",
     "paragraph4": "I'm now looking to join a structured team to work on complex architecture challenges and continue growing in a demanding environment.",
