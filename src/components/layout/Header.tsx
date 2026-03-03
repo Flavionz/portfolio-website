@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -32,60 +32,56 @@ export const Header: React.FC = () => {
     { href: '#contact', label: t('navigation.contact') }
   ];
 
+  const executeScroll = useCallback((targetId: string) => {
+    const element = document.getElementById(targetId);
+    if (element) {
+      const headerOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  }, []);
+
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
     const targetId = href.replace('#', '');
-    const isMobile = mobileMenuOpen;
 
-    if (isMobile) {
+    if (mobileMenuOpen) {
       setMobileMenuOpen(false);
     }
 
     if (location.pathname !== '/') {
-      // Se siamo su un'altra pagina, torniamo alla home e poi scrolliamo
       navigate('/');
-      setTimeout(() => {
-        const element = document.getElementById(targetId);
-        if (element) {
-          const offsetTop = element.offsetTop - 80;
-          window.scrollTo({ top: offsetTop, behavior: 'smooth' });
-        }
-      }, 100);
+      setTimeout(() => executeScroll(targetId), 300);
     } else {
-      // Se siamo già in home, scrolliamo.
-      // Usiamo un delay se il menu mobile si stava chiudendo per evitare scatti.
-      const delay = isMobile ? 300 : 0;
-      setTimeout(() => {
-        const element = document.getElementById(targetId);
-        if (element) {
-          const offsetTop = element.offsetTop - 80;
-          window.scrollTo({ top: offsetTop, behavior: 'smooth' });
-        }
-      }, delay);
+      const delay = mobileMenuOpen ? 350 : 0;
+      setTimeout(() => executeScroll(targetId), delay);
     }
   };
 
   return (
-      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}>
+      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+          isScrolled ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm' : 'bg-transparent'
+      }`}>
         <Container>
           <div className="flex items-center justify-between py-4">
             <div className="flex items-center gap-3">
-              <Link to="/" className="text-2xl font-bold">
-                FT
-              </Link>
-
+              <Link to="/" className="text-2xl font-bold">FT</Link>
               <a
                   href="https://github.com/Flavionz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
-                  aria-label="GitHub Profile"
               >
                 <GithubIcon className="h-5 w-5" />
               </a>
             </div>
 
-            {/* Desktop Navigation */}
+            {/* Desktop Nav */}
             <nav className="hidden md:flex items-center gap-8">
               <ul className="flex items-center gap-6">
                 {navItems.map((item) => (
@@ -106,14 +102,14 @@ export const Header: React.FC = () => {
               </div>
             </nav>
 
-            {/* Mobile Actions */}
+            {/* Mobile UI */}
             <div className="flex items-center gap-4 md:hidden">
               <LanguageSwitcher />
               <ThemeToggle />
               <button
                   onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                  className="p-2"
-                  aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+                  className="p-2 relative z-[70]"
+                  aria-label="Toggle menu"
               >
                 {mobileMenuOpen ? <XIcon className="h-6 w-6" /> : <MenuIcon className="h-6 w-6" />}
               </button>
@@ -121,23 +117,24 @@ export const Header: React.FC = () => {
           </div>
         </Container>
 
-        {/* Mobile Menu */}
+        {/* Mobile Menu Overlay */}
         <AnimatePresence>
           {mobileMenuOpen && (
               <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
                   exit={{ opacity: 0, height: 0 }}
-                  className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800"
+                  transition={{ duration: 0.3 }}
+                  className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 overflow-hidden"
               >
                 <Container>
-                  <ul className="py-4 space-y-4">
+                  <ul className="py-6 space-y-4">
                     {navItems.map((item) => (
                         <li key={item.href}>
                           <a
                               href={item.href}
-                              className="block py-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer"
                               onClick={(e) => handleNavClick(e, item.href)}
+                              className="block py-3 text-lg text-gray-700 dark:text-gray-300 hover:text-blue-500 transition-colors"
                           >
                             {item.label}
                           </a>
