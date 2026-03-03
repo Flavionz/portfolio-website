@@ -35,12 +35,14 @@ export const Header: React.FC = () => {
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
     const targetId = href.replace('#', '');
+    const isMobile = mobileMenuOpen;
 
-    if (mobileMenuOpen) {
+    if (isMobile) {
       setMobileMenuOpen(false);
     }
 
     if (location.pathname !== '/') {
+      // Se siamo su un'altra pagina, torniamo alla home e poi scrolliamo
       navigate('/');
       setTimeout(() => {
         const element = document.getElementById(targetId);
@@ -50,11 +52,16 @@ export const Header: React.FC = () => {
         }
       }, 100);
     } else {
-      const element = document.getElementById(targetId);
-      if (element) {
-        const offsetTop = element.offsetTop - 80;
-        window.scrollTo({ top: offsetTop, behavior: 'smooth' });
-      }
+      // Se siamo già in home, scrolliamo.
+      // Usiamo un delay se il menu mobile si stava chiudendo per evitare scatti.
+      const delay = isMobile ? 300 : 0;
+      setTimeout(() => {
+        const element = document.getElementById(targetId);
+        if (element) {
+          const offsetTop = element.offsetTop - 80;
+          window.scrollTo({ top: offsetTop, behavior: 'smooth' });
+        }
+      }, delay);
     }
   };
 
@@ -67,7 +74,6 @@ export const Header: React.FC = () => {
                 FT
               </Link>
 
-              {/* AGGIUNTO IL TAG <a QUI SOTTO */}
               <a
                   href="https://github.com/Flavionz"
                   target="_blank"
@@ -79,11 +85,16 @@ export const Header: React.FC = () => {
               </a>
             </div>
 
+            {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
               <ul className="flex items-center gap-6">
                 {navItems.map((item) => (
                     <li key={item.href}>
-                      <a href={item.href} onClick={(e) => handleNavClick(e, item.href)} className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer">
+                      <a
+                          href={item.href}
+                          onClick={(e) => handleNavClick(e, item.href)}
+                          className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer"
+                      >
                         {item.label}
                       </a>
                     </li>
@@ -95,24 +106,39 @@ export const Header: React.FC = () => {
               </div>
             </nav>
 
+            {/* Mobile Actions */}
             <div className="flex items-center gap-4 md:hidden">
               <LanguageSwitcher />
               <ThemeToggle />
-              <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="p-2" aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}>
+              <button
+                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                  className="p-2"
+                  aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+              >
                 {mobileMenuOpen ? <XIcon className="h-6 w-6" /> : <MenuIcon className="h-6 w-6" />}
               </button>
             </div>
           </div>
         </Container>
 
+        {/* Mobile Menu */}
         <AnimatePresence>
           {mobileMenuOpen && (
-              <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }} className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+              <motion.div
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: 'auto' }}
+                  exit={{ opacity: 0, height: 0 }}
+                  className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800"
+              >
                 <Container>
                   <ul className="py-4 space-y-4">
                     {navItems.map((item) => (
                         <li key={item.href}>
-                          <a href={item.href} className="block py-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer" onClick={(e) => handleNavClick(e, item.href)}>
+                          <a
+                              href={item.href}
+                              className="block py-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors cursor-pointer"
+                              onClick={(e) => handleNavClick(e, item.href)}
+                          >
                             {item.label}
                           </a>
                         </li>
