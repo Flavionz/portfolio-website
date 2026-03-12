@@ -6,6 +6,7 @@ import { Button } from '../ui/Button';
 import { GithubIcon, ExternalLinkIcon } from 'lucide-react';
 import paxCaninaImg from '../../assets/images/pax-canina-preview.png';
 import aubergeImg from '../../assets/images/auberge-preview.png';
+import denarioImg from '../../assets/images/denario-preview.jpg';
 
 interface ProjectCardProps {
     title: string;
@@ -16,6 +17,7 @@ interface ProjectCardProps {
     demoLink: string;
     githubLabel: string;
     demoLabel: string;
+    wip?: boolean;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -26,10 +28,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                                                      githubLink,
                                                      demoLink,
                                                      githubLabel,
-                                                     demoLabel
+                                                     demoLabel,
+                                                     wip,
                                                  }) => {
     return (
-        <Card className="flex flex-col h-full">
+        <Card className="flex flex-col h-full relative">
+            {wip && (
+                <span className="absolute top-3 right-3 z-10 px-2 py-1 bg-yellow-400 text-yellow-900 text-xs font-bold rounded-full">
+                    WIP
+                </span>
+            )}
             <div className="aspect-video w-full overflow-hidden">
                 <img
                     src={image}
@@ -48,8 +56,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                             key={idx}
                             className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded text-xs font-medium"
                         >
-              {tag}
-            </span>
+                            {tag}
+                        </span>
                     ))}
                 </div>
                 <div className="flex gap-3 mt-auto">
@@ -91,15 +99,15 @@ export const Projects: React.FC = () => {
         };
         githubLabel?: string;
         demoLabel?: string;
+        wip?: boolean;
     }>;
 
-    // Mappa delle immagini dei progetti
     const projectImages: { [key: string]: string } = {
         'pax-canina': paxCaninaImg,
-        'auberge': aubergeImg
+        'auberge': aubergeImg,
+        'denario': denarioImg,
     };
 
-    // Fallback image da Unsplash per progetti senza immagine
     const defaultImage = 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=675&fit=crop';
 
     return (
@@ -110,15 +118,15 @@ export const Projects: React.FC = () => {
         >
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {projects.map((project, index) => {
-                    // Determina quale immagine usare in base al titolo del progetto
                     let projectImage = defaultImage;
-
                     const titleLower = project.title.toLowerCase();
 
                     if (titleLower.includes('pax canina')) {
                         projectImage = projectImages['pax-canina'];
                     } else if (titleLower.includes('auberge')) {
                         projectImage = projectImages['auberge'];
+                    } else if (titleLower.includes('denario')) {
+                        projectImage = projectImages['denario'];
                     }
 
                     return (
@@ -130,8 +138,9 @@ export const Projects: React.FC = () => {
                             image={projectImage}
                             githubLink={project.links.github}
                             demoLink={project.links.demo}
-                            githubLabel={project.githubLabel || "GitHub"}
-                            demoLabel={project.demoLabel || "Demo"}
+                            githubLabel={project.githubLabel || 'GitHub'}
+                            demoLabel={project.demoLabel || 'Demo'}
+                            wip={project.wip}
                         />
                     );
                 })}

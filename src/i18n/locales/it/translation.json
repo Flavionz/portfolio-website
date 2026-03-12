@@ -102,8 +102,15 @@
       {
         "title": "Pax Canina - Gestione Club Cinofilo",
         "description": "Applicazione Full-Stack sviluppata in 6 mesi per la certificazione RNCP Concepteur Développeur d'Applications. Sistema completo di gestione club cinofilo con autenticazione JWT, gestione multi-ruolo (proprietari, addestratori, admin), prenotazione corsi e dashboard dinamiche. Architettura modulare feature-driven.",
-        "tags": ["Spring Boot", "Angular 19", "MySQL", "JWT", "TypeScript", "REST API"],
-        "image": "/assets/images/pax-canina-preview.png",
+        "tags": [
+          "Spring Boot",
+          "Angular 19",
+          "MySQL",
+          "JWT",
+          "TypeScript",
+          "REST API",
+          "Docker"
+        ],
         "links": {
           "github": "https://github.com/Flavionz/pax-canina-frontend",
           "demo": "https://github.com/Flavionz/pax-canina-backend#readme"
@@ -112,10 +119,17 @@
         "demoLabel": "Backend"
       },
       {
-        "title": "Auberge Espagnole - E-commerce",
+        "title": "Auberge Espagnole  E-commerce",
         "description": "Applicazione e-commerce Full-Stack per prodotti spagnoli autentici. Catalogo prodotti con filtri per categoria, gestione carrello, design responsive e moderno. Stack tecnologico moderno con TypeScript, Prisma ORM e TailwindCSS. Progetto in sviluppo attivo.",
-        "tags": ["React", "TypeScript", "Node.js", "Prisma", "TailwindCSS", "PostgreSQL"],
-        "image": "/assets/images/auberge-preview.png",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Node.js",
+          "Prisma",
+          "TailwindCSS",
+          "PostgreSQL",
+          "Docker"
+        ],
         "links": {
           "github": "https://github.com/Flavionz/auberge-ecommerce",
           "demo": "https://github.com/Flavionz/auberge-ecommerce#readme"
@@ -124,16 +138,24 @@
         "demoLabel": "Documentazione"
       },
       {
-        "title": "Prossimamente...",
-        "description": "Un nuovo progetto Full-Stack è attualmente in fase di progettazione. Resta connesso per scoprire presto una nuova applicazione che dimostra le mie competenze in architettura software e sviluppo moderno.",
-        "tags": ["In sviluppo", "Full-Stack", "Backend", "Architettura"],
-        "image": "/assets/images/coming-soon.png",
+        "title": "Denario - Piattaforma Bancaria Digitale",
+        "description": "Piattaforma bancaria a microservizi in corso di sviluppo. Spring Boot 3, Spring Cloud Gateway, Keycloak OAuth2/JWT, messaggistica asincrona RabbitMQ, notifiche real-time WebSocket, Docker Compose e pipeline CI/CD GitHub Actions. Un database per servizio, architettura enterprise.",
+        "tags": [
+          "Spring Boot 3",
+          "Spring Cloud",
+          "Keycloak",
+          "RabbitMQ",
+          "WebSocket",
+          "Docker",
+          "CI/CD"
+        ],
         "links": {
-          "github": "https://github.com/Flavionz",
-          "demo": "https://github.com/Flavionz"
+          "github": "https://github.com/Flavionz/denario",
+          "demo": "https://github.com/Flavionz/denario#readme"
         },
-        "githubLabel": "Il mio GitHub",
-        "demoLabel": "Vedi profilo"
+        "githubLabel": "Codice Sorgente",
+        "demoLabel": "Documentazione",
+        "wip": true
       }
     ]
   },
