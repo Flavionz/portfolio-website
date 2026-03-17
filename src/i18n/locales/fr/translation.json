@@ -76,10 +76,10 @@
       "items": [
         "Agile / Scrum",
         "IntelliJ / VS Code",
-        "Postman",
         "Figma",
         "UML Modeling",
-        "Tests Unitaires (JUnit)"
+        "Tests Unitaires (JUnit)",
+        "Développement IA Agentique (Claude Code)"
       ]
     },
     "security": {
@@ -100,7 +100,7 @@
     "githubUrl": "https://github.com/Flavionz",
     "items": [
       {
-        "title": "Auberge Espagnole  E-commerce",
+        "title": "Auberge Espagnole",
         "description": "Application e-commerce Full-Stack pour produits espagnols authentiques. Catalogue produits avec filtrage par catégories, gestion panier, design responsive et moderne. Stack technique moderne avec TypeScript, Prisma ORM et TailwindCSS. Projet en développement actif.",
         "tags": [
           "React",
@@ -119,7 +119,7 @@
         "demoLabel": "Documentation"
       },
       {
-        "title": "Pax Canina - Gestion de Club Canin",
+        "title": "Pax Canina",
         "description": "Application Full-Stack développée en 6 mois dans le cadre de mon titre RNCP Concepteur Développeur d'Applications. Système complet de gestion pour club canin avec authentification JWT, gestion multi-rôles (propriétaires, entraîneurs, admin), réservation de cours et tableaux de bord dynamiques. Architecture modulaire feature-driven.",
         "tags": [
           "Spring Boot",
@@ -138,7 +138,7 @@
         "demoLabel": "Backend"
       },
       {
-        "title": "Denario - Plateforme Bancaire Digitale",
+        "title": "Denario",
         "description": "Plateforme bancaire microservices en cours de développement. Spring Boot 3, Spring Cloud Gateway, Keycloak OAuth2/JWT, messagerie asynchrone RabbitMQ, notifications temps réel WebSocket, Docker Compose et pipeline CI/CD GitHub Actions. Une base de données par service, architecture enterprise.",
         "tags": [
           "Spring Boot 3",
@@ -337,7 +337,7 @@
   },
   "footer": {
     "copyright": "© 2026 Flavio Terenzi. Tous droits réservés.",
-    "madeWith": "Portfolio réalisé avec React & Tailwind CSS",
+    "madeWith": "Portfolio développé avec React, TypeScript & Tailwind CSS",
     "privacy": "Confidentialité & Cookies"
   },
   "notFound": {

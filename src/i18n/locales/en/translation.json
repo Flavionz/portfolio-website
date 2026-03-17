@@ -76,10 +76,10 @@
       "items": [
         "Agile / Scrum",
         "IntelliJ / VS Code",
-        "Postman",
         "Figma",
         "UML Modeling",
-        "Unit Testing (JUnit)"
+        "Unit Testing (JUnit)",
+        "Agentic AI Development (Claude Code)"
       ]
     },
     "security": {
@@ -100,7 +100,7 @@
     "githubUrl": "https://github.com/Flavionz",
     "items": [
       {
-        "title": "Auberge Espagnole  E-commerce",
+        "title": "Auberge Espagnole",
         "description": "Full-Stack e-commerce application for authentic Spanish products. Product catalog with category filtering, cart management, responsive modern design. Modern tech stack with TypeScript, Prisma ORM, and TailwindCSS. Actively developed project.",
         "tags": [
           "React",
@@ -119,7 +119,7 @@
         "demoLabel": "Documentation"
       },
       {
-        "title": "Pax Canina - Dog Club Management",
+        "title": "Pax Canina",
         "description": "Full-Stack application developed over 6 months for the RNCP Application Designer & Developer certification. Complete dog club management system with JWT authentication, multi-role management (owners, trainers, admin), course booking, and dynamic dashboards. Feature-driven modular architecture.",
         "tags": [
           "Spring Boot",
@@ -138,7 +138,7 @@
         "demoLabel": "Backend"
       },
       {
-        "title": "Denario - Digital Banking Platform",
+        "title": "Denario",
         "description": "Production-grade microservices banking platform (work in progress). Spring Boot 3, Spring Cloud Gateway, Keycloak OAuth2/JWT, RabbitMQ async messaging, WebSocket real-time notifications, Docker Compose, and GitHub Actions CI/CD. One database per service, enterprise architecture.",
         "tags": [
           "Spring Boot 3",
@@ -337,7 +337,7 @@
   },
   "footer": {
     "copyright": "© 2026 Flavio Terenzi. All rights reserved.",
-    "madeWith": "Portfolio built with React & Tailwind CSS",
+    "madeWith": "Built with React, TypeScript & Tailwind CSS",
     "privacy": "Privacy & Cookies"
   },
   "notFound": {

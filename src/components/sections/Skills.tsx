@@ -37,7 +37,7 @@ const SkillCategory: React.FC<SkillCategoryProps> = ({
             <ul className="grid grid-cols-2 gap-x-4 gap-y-2">
                 {items.map((item, index) => (
                     <li key={index} className="flex items-center gap-2">
-                        <span className="w-2 h-2 rounded-full bg-primary" />
+                        <span className="w-2 h-2 rounded-full bg-primary shrink-0" />
                         <span>{item}</span>
                     </li>
                 ))}
