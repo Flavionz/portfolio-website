@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Section } from '../ui/Section';
 import { MapPinIcon, ClockIcon } from 'lucide-react';
+import profilePic from '../../assets/images/profile-pic.jpg';
 
 export const About: React.FC = () => {
   const {
@@ -31,7 +32,7 @@ export const About: React.FC = () => {
               className="relative rounded-2xl overflow-hidden max-h-[400px] md:max-h-[500px] lg:max-h-[700px]"
           >
             <img
-                src="/src/assets/images/profile-pic.jpg"
+                src={profilePic}
                 alt="Profile"
                 className="w-full h-full object-cover object-top rounded-2xl"
             />
