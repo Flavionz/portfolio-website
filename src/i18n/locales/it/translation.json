@@ -100,25 +100,6 @@
     "githubUrl": "https://github.com/Flavionz",
     "items": [
       {
-        "title": "Pax Canina - Gestione Club Cinofilo",
-        "description": "Applicazione Full-Stack sviluppata in 6 mesi per la certificazione RNCP Concepteur Développeur d'Applications. Sistema completo di gestione club cinofilo con autenticazione JWT, gestione multi-ruolo (proprietari, addestratori, admin), prenotazione corsi e dashboard dinamiche. Architettura modulare feature-driven.",
-        "tags": [
-          "Spring Boot",
-          "Angular 19",
-          "MySQL",
-          "JWT",
-          "TypeScript",
-          "REST API",
-          "Docker"
-        ],
-        "links": {
-          "github": "https://github.com/Flavionz/pax-canina-frontend",
-          "demo": "https://github.com/Flavionz/pax-canina-backend#readme"
-        },
-        "githubLabel": "Frontend",
-        "demoLabel": "Backend"
-      },
-      {
         "title": "Auberge Espagnole  E-commerce",
         "description": "Applicazione e-commerce Full-Stack per prodotti spagnoli autentici. Catalogo prodotti con filtri per categoria, gestione carrello, design responsive e moderno. Stack tecnologico moderno con TypeScript, Prisma ORM e TailwindCSS. Progetto in sviluppo attivo.",
         "tags": [
@@ -136,6 +117,25 @@
         },
         "githubLabel": "Codice Sorgente",
         "demoLabel": "Documentazione"
+      },
+      {
+        "title": "Pax Canina - Gestione Club Cinofilo",
+        "description": "Applicazione Full-Stack sviluppata in 6 mesi per la certificazione RNCP Concepteur Développeur d'Applications. Sistema completo di gestione club cinofilo con autenticazione JWT, gestione multi-ruolo (proprietari, addestratori, admin), prenotazione corsi e dashboard dinamiche. Architettura modulare feature-driven.",
+        "tags": [
+          "Spring Boot",
+          "Angular 19",
+          "MySQL",
+          "JWT",
+          "TypeScript",
+          "REST API",
+          "Docker"
+        ],
+        "links": {
+          "github": "https://github.com/Flavionz/pax-canina-frontend",
+          "demo": "https://github.com/Flavionz/pax-canina-backend#readme"
+        },
+        "githubLabel": "Frontend",
+        "demoLabel": "Backend"
       },
       {
         "title": "Denario - Piattaforma Bancaria Digitale",

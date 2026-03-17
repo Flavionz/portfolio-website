@@ -100,25 +100,6 @@
     "githubUrl": "https://github.com/Flavionz",
     "items": [
       {
-        "title": "Pax Canina - Dog Club Management",
-        "description": "Full-Stack application developed over 6 months for the RNCP Application Designer & Developer certification. Complete dog club management system with JWT authentication, multi-role management (owners, trainers, admin), course booking, and dynamic dashboards. Feature-driven modular architecture.",
-        "tags": [
-          "Spring Boot",
-          "Angular 19",
-          "MySQL",
-          "JWT",
-          "TypeScript",
-          "REST API",
-          "Docker"
-        ],
-        "links": {
-          "github": "https://github.com/Flavionz/pax-canina-frontend",
-          "demo": "https://github.com/Flavionz/pax-canina-backend#readme"
-        },
-        "githubLabel": "Frontend",
-        "demoLabel": "Backend"
-      },
-      {
         "title": "Auberge Espagnole  E-commerce",
         "description": "Full-Stack e-commerce application for authentic Spanish products. Product catalog with category filtering, cart management, responsive modern design. Modern tech stack with TypeScript, Prisma ORM, and TailwindCSS. Actively developed project.",
         "tags": [
@@ -136,6 +117,25 @@
         },
         "githubLabel": "Source Code",
         "demoLabel": "Documentation"
+      },
+      {
+        "title": "Pax Canina - Dog Club Management",
+        "description": "Full-Stack application developed over 6 months for the RNCP Application Designer & Developer certification. Complete dog club management system with JWT authentication, multi-role management (owners, trainers, admin), course booking, and dynamic dashboards. Feature-driven modular architecture.",
+        "tags": [
+          "Spring Boot",
+          "Angular 19",
+          "MySQL",
+          "JWT",
+          "TypeScript",
+          "REST API",
+          "Docker"
+        ],
+        "links": {
+          "github": "https://github.com/Flavionz/pax-canina-frontend",
+          "demo": "https://github.com/Flavionz/pax-canina-backend#readme"
+        },
+        "githubLabel": "Frontend",
+        "demoLabel": "Backend"
       },
       {
         "title": "Denario - Digital Banking Platform",
@@ -166,7 +166,8 @@
         "role": "Full Stack Developer",
         "company": "Freelance - Actively seeking a permanent position",
         "period": "October 2025 - Present",
-        "description": "While looking for the right team to join, I am delivering Full-Stack solutions for local clients. I am focused on keeping my technical edge sharp and exploring new software architectures."      },
+        "description": "While looking for the right team to join, I am delivering Full-Stack solutions for local clients. I am focused on keeping my technical edge sharp and exploring new software architectures."
+      },
       {
         "role": "Analyst Programmer",
         "company": "Apec IT Solutions - La Maxe",

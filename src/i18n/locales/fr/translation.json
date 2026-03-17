@@ -100,25 +100,6 @@
     "githubUrl": "https://github.com/Flavionz",
     "items": [
       {
-        "title": "Pax Canina - Gestion de Club Canin",
-        "description": "Application Full-Stack développée en 6 mois dans le cadre de mon titre RNCP Concepteur Développeur d'Applications. Système complet de gestion pour club canin avec authentification JWT, gestion multi-rôles (propriétaires, entraîneurs, admin), réservation de cours et tableaux de bord dynamiques. Architecture modulaire feature-driven.",
-        "tags": [
-          "Spring Boot",
-          "Angular 19",
-          "MySQL",
-          "JWT",
-          "TypeScript",
-          "REST API",
-          "Docker"
-        ],
-        "links": {
-          "github": "https://github.com/Flavionz/pax-canina-frontend",
-          "demo": "https://github.com/Flavionz/pax-canina-backend#readme"
-        },
-        "githubLabel": "Frontend",
-        "demoLabel": "Backend"
-      },
-      {
         "title": "Auberge Espagnole  E-commerce",
         "description": "Application e-commerce Full-Stack pour produits espagnols authentiques. Catalogue produits avec filtrage par catégories, gestion panier, design responsive et moderne. Stack technique moderne avec TypeScript, Prisma ORM et TailwindCSS. Projet en développement actif.",
         "tags": [
@@ -136,6 +117,25 @@
         },
         "githubLabel": "Code Source",
         "demoLabel": "Documentation"
+      },
+      {
+        "title": "Pax Canina - Gestion de Club Canin",
+        "description": "Application Full-Stack développée en 6 mois dans le cadre de mon titre RNCP Concepteur Développeur d'Applications. Système complet de gestion pour club canin avec authentification JWT, gestion multi-rôles (propriétaires, entraîneurs, admin), réservation de cours et tableaux de bord dynamiques. Architecture modulaire feature-driven.",
+        "tags": [
+          "Spring Boot",
+          "Angular 19",
+          "MySQL",
+          "JWT",
+          "TypeScript",
+          "REST API",
+          "Docker"
+        ],
+        "links": {
+          "github": "https://github.com/Flavionz/pax-canina-frontend",
+          "demo": "https://github.com/Flavionz/pax-canina-backend#readme"
+        },
+        "githubLabel": "Frontend",
+        "demoLabel": "Backend"
       },
       {
         "title": "Denario - Plateforme Bancaire Digitale",
@@ -166,7 +166,8 @@
         "role": "Développeur Full Stack",
         "company": "Freelance - En recherche active de CDI",
         "period": "Octobre 2025 - Présent",
-        "description": "En attendant d'intégrer une équipe structurée, je développe des projets Full-Stack pour des clients locaux, en maintenant mes compétences techniques à jour et en explorant de nouvelles solutions architecturales."      },
+        "description": "En attendant d'intégrer une équipe structurée, je développe des projets Full-Stack pour des clients locaux, en maintenant mes compétences techniques à jour et en explorant de nouvelles solutions architecturales."
+      },
       {
         "role": "Analyste Programmeur",
         "company": "Apec IT Solutions - La Maxe",

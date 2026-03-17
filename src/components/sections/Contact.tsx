@@ -156,7 +156,7 @@ export const Contact: React.FC = () => {
               onSubmit={handleSubmit}
               className="space-y-6"
           >
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid lg:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">
                   {t('contact.form.name')}

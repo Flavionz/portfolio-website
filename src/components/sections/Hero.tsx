@@ -12,7 +12,7 @@ export const Hero: React.FC = () => {
       className="min-h-screen flex items-center pt-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
 
       <Container>
-        <div className="flex flex-col items-center text-center max-w-4xl mx-auto py-16 md:py-24">
+        <div className="flex flex-col items-center text-center max-w-4xl mx-auto py-16 md:py-20 lg:py-24">
           <motion.span
             initial={{
               opacity: 0,
@@ -42,7 +42,7 @@ export const Hero: React.FC = () => {
               duration: 0.5,
               delay: 0.1
             }}
-            className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
+            className="text-4xl md:text-5xl lg:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
 
             {t('hero.name')}
           </motion.h1>

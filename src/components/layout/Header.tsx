@@ -82,7 +82,7 @@ export const Header: React.FC = () => {
             </div>
 
             {/* Desktop Nav */}
-            <nav className="hidden md:flex items-center gap-8">
+            <nav className="hidden lg:flex items-center gap-8">
               <ul className="flex items-center gap-6">
                 {navItems.map((item) => (
                     <li key={item.href}>
@@ -103,7 +103,7 @@ export const Header: React.FC = () => {
             </nav>
 
             {/* Mobile UI */}
-            <div className="flex items-center gap-4 md:hidden">
+            <div className="flex items-center gap-4 lg:hidden">
               <LanguageSwitcher />
               <ThemeToggle />
               <button
@@ -125,7 +125,7 @@ export const Header: React.FC = () => {
                   animate={{ opacity: 1, height: 'auto' }}
                   exit={{ opacity: 0, height: 0 }}
                   transition={{ duration: 0.3 }}
-                  className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 overflow-hidden"
+                  className="lg:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 overflow-hidden"
               >
                 <Container>
                   <ul className="py-6 space-y-4">

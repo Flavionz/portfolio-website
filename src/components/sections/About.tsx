@@ -11,7 +11,7 @@ export const About: React.FC = () => {
 
   return (
       <Section id="about" title={t('about.title')} className="bg-white dark:bg-gray-900">
-        <div className="grid md:grid-cols-2 gap-12 items-start">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-start">
           {/* Blocco Immagine */}
           <motion.div
               initial={{
@@ -28,10 +28,10 @@ export const About: React.FC = () => {
               transition={{
                 duration: 0.5
               }}
-              className="relative rounded-2xl overflow-hidden max-h-[500px] md:max-h-[700px]"
+              className="relative rounded-2xl overflow-hidden max-h-[400px] md:max-h-[500px] lg:max-h-[700px]"
           >
             <img
-                src="https://i.postimg.cc/wBYtkY7J/dffe6b4d-5244-4a75-8422-d49c3a091ace.jpg"
+                src="/src/assets/images/profile-pic.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover object-top rounded-2xl"
             />

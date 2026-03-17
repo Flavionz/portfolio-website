@@ -36,7 +36,6 @@ export const Footer: React.FC = () => {
 
             <div className="flex items-center gap-6">
               {socialLinks.map((link, index) => (
-                  /* Qui mancava il tag <a */
                   <a
                       key={index}
                       href={link.href}

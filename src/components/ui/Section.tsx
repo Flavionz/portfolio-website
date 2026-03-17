@@ -16,10 +16,10 @@ export const Section: React.FC<SectionProps> = ({
   subtitle
 }) => {
   return (
-    <section id={id} className={`py-16 md:py-24 w-full ${className}`}>
+    <section id={id} className={`py-16 md:py-20 lg:py-24 w-full ${className}`}>
       <Container>
         {(title || subtitle) &&
-        <div className="mb-12 md:mb-16 text-center">
+        <div className="mb-10 md:mb-12 lg:mb-16 text-center">
             {title &&
           <motion.h2
             initial={{
