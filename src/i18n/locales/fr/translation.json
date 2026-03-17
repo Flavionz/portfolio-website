@@ -101,7 +101,7 @@
     "items": [
       {
         "title": "Auberge Espagnole",
-        "description": "Application e-commerce Full-Stack pour produits espagnols authentiques. Catalogue produits avec filtrage par catégories, gestion panier, design responsive et moderne. Stack technique moderne avec TypeScript, Prisma ORM et TailwindCSS. Projet en développement actif.",
+        "description": "Plateforme e-commerce Full-Stack en développement actif avec 33 endpoints REST, 5 modèles Prisma sur PostgreSQL et 39 fichiers UI React répartis sur 24 routes (6 protégées admin). Intégration Stripe, emails transactionnels via Nodemailer, authentification JWT et 31 tests de sécurité automatisés avec Jest et Supertest. Entièrement conteneurisé avec Docker Compose.",
         "tags": [
           "React",
           "TypeScript",
@@ -120,7 +120,7 @@
       },
       {
         "title": "Pax Canina",
-        "description": "Application Full-Stack développée en 6 mois dans le cadre de mon titre RNCP Concepteur Développeur d'Applications. Système complet de gestion pour club canin avec authentification JWT, gestion multi-rôles (propriétaires, entraîneurs, admin), réservation de cours et tableaux de bord dynamiques. Architecture modulaire feature-driven.",
+        "description": "Application Full-Stack développée en solo sur 6 mois dans le cadre de la certification RNCP. Système de gestion de club canin avec 59 endpoints REST, 12 entités JPA et 3 rôles utilisateur (Admin, Coach, Propriétaire) avec contrôle d'accès granulaire via Spring Security. Authentification JWT, gestion des cours et séances, inscription des chiens avec intégration TheDogAPI, et envoi d'emails transactionnels. Entièrement conteneurisé avec Docker.",
         "tags": [
           "Spring Boot",
           "Angular 19",
