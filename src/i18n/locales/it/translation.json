@@ -101,7 +101,7 @@
     "items": [
       {
         "title": "Auberge Espagnole",
-        "description": "Piattaforma e-commerce Full-Stack in sviluppo attivo con 33 endpoint REST, 5 modelli Prisma su PostgreSQL e 39 file UI React distribuiti su 24 route (6 protette admin). Integrazione Stripe, email transazionali via Nodemailer, autenticazione JWT e 31 test di sicurezza automatizzati con Jest e Supertest. Completamente containerizzato con Docker Compose.",
+        "description": "Piattaforma e-commerce Full-Stack in produzione con 33 endpoint REST, 5 modelli Prisma su PostgreSQL e 39 file UI React distribuiti su 24 route (6 protette admin). Autenticazione JWT, checkout Stripe, dashboard admin (gestione prodotti/ordini/utenti), upload immagini Cloudinary, sistema di consegna a zone con regole business, email transazionali via Nodemailer e 31 test di sicurezza automatizzati con Jest e Supertest. Deploy su Vercel + Render + Neon PostgreSQL.",
         "tags": [
           "React",
           "TypeScript",
@@ -109,14 +109,14 @@
           "Prisma",
           "TailwindCSS",
           "PostgreSQL",
-          "Docker"
+          "Cloudinary"
         ],
         "links": {
           "github": "https://github.com/Flavionz/auberge-ecommerce",
-          "demo": "https://github.com/Flavionz/auberge-ecommerce#readme"
+          "demo": "https://auberge-ecommerce.vercel.app"
         },
         "githubLabel": "Codice Sorgente",
-        "demoLabel": "Documentazione"
+        "demoLabel": "Demo"
       },
       {
         "title": "Pax Canina",
