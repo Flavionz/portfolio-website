@@ -139,10 +139,10 @@
       },
       {
         "title": "Denario",
-        "description": "Plateforme bancaire microservices en cours de développement. Spring Boot 3, Spring Cloud Gateway, Keycloak OAuth2/JWT, messagerie asynchrone RabbitMQ, notifications temps réel WebSocket, Docker Compose et pipeline CI/CD GitHub Actions. Une base de données par service, architecture enterprise.",
+        "description": "Plateforme bancaire microservices production-grade avec 4 services indépendants : API Gateway, Account, Transaction et Notification. Authentification Keycloak OAuth2/JWT, messagerie asynchrone RabbitMQ, notifications temps réel WebSocket STOMP, et une base PostgreSQL par service. Frontend Angular 19 avec Angular Material. Double pipeline CI/CD GitHub Actions et Architecture Decision Records.",
         "tags": [
           "Spring Boot 3",
-          "Spring Cloud",
+          "Angular 19",
           "Keycloak",
           "RabbitMQ",
           "WebSocket",
@@ -154,8 +154,7 @@
           "demo": "https://github.com/Flavionz/denario#readme"
         },
         "githubLabel": "Code Source",
-        "demoLabel": "Documentation",
-        "wip": true
+        "demoLabel": "Documentation"
       }
     ]
   },

@@ -6,7 +6,7 @@ import { Button } from '../ui/Button';
 import { GithubIcon, ExternalLinkIcon } from 'lucide-react';
 import paxCaninaImg from '../../assets/images/pax-canina-preview.png';
 import aubergeImg from '../../assets/images/auberge-preview.png';
-import denarioImg from '../../assets/images/denario-preview.jpg';
+import denarioImg from '../../assets/images/denario-preview.png';
 
 interface ProjectCardProps {
     title: string;
