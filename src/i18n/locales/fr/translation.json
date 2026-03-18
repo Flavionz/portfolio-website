@@ -34,7 +34,8 @@
         "TypeScript",
         "Angular 19",
         "HTML5 Sémantique",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "Jest"
       ]
     },
     "backend": {
