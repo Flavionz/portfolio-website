@@ -30,12 +30,11 @@
     "frontend": {
       "title": "Frontend",
       "items": [
-        "React & React Native",
+        "React",
         "TypeScript",
         "Angular 19",
         "HTML5 Semantico",
-        "Tailwind CSS",
-        "Integrazione API"
+        "Tailwind CSS"
       ]
     },
     "backend": {
@@ -57,7 +56,7 @@
         "SQL & Ottimizzazione",
         "Database Design (UML)",
         "Redis",
-        "NoSQL Base"
+        "NoSQL"
       ]
     },
     "devops": {
@@ -77,7 +76,6 @@
         "Agile / Scrum",
         "IntelliJ / VS Code",
         "Figma",
-        "Modellazione UML",
         "Test Unitari (JUnit)",
         "Sviluppo IA Agentivo (Claude Code)"
       ]
