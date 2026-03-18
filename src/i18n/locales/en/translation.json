@@ -42,11 +42,11 @@
       "title": "Backend & APIs",
       "items": [
         "Java (Spring Boot)",
-        "Layered Architecture",
+        "Spring Security",
         "RESTful APIs",
         "Node.js / Express",
-        "Maven / Gradle",
-        "Design Patterns"
+        "Microservices",
+        "Spring Cloud Gateway"
       ]
     },
     "database": {
