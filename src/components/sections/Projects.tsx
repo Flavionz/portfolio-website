@@ -123,7 +123,7 @@ export const Projects: React.FC = () => {
 
                     if (titleLower.includes('pax canina')) {
                         projectImage = projectImages['pax-canina'];
-                    } else if (titleLower.includes('auberge')) {
+                    } else if (titleLower.includes('casa steph')) {
                         projectImage = projectImages['auberge'];
                     } else if (titleLower.includes('denario')) {
                         projectImage = projectImages['denario'];

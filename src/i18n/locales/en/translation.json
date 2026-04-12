@@ -98,8 +98,8 @@
     "githubUrl": "https://github.com/Flavionz",
     "items": [
       {
-        "title": "Auberge Espagnole",
-        "description": "Full-Stack e-commerce platform live in production with 33 REST endpoints, 5 Prisma models on PostgreSQL, and 39 React UI files across 24 routes (6 admin-protected). Features JWT authentication, Stripe checkout, admin dashboard (products, orders & users management), Cloudinary image uploads, zone-based delivery system with business rules, transactional emails via Nodemailer, and 31 automated security tests with Jest and Supertest. Deployed on Vercel + Render + Neon PostgreSQL.",
+        "title": "Casa Steph Iberico",
+        "description": "Full-Stack e-commerce platform live in production for a local Metz-based premium iberian charcuterie & cheese shop. Features 33 REST endpoints, 5 Prisma models on PostgreSQL, JWT authentication with rate limiting and Helmet security headers, Stripe checkout, admin dashboard (products, orders & users management), Cloudinary image uploads, zone-based delivery system, transactional emails and PDF invoice generation via Nodemailer. 31 automated security tests with Jest and Supertest. Deployed on Vercel + Render + Neon PostgreSQL.",
         "tags": [
           "React",
           "TypeScript",
@@ -110,8 +110,8 @@
           "Cloudinary"
         ],
         "links": {
-          "github": "https://github.com/Flavionz/auberge-ecommerce",
-          "demo": "https://auberge-ecommerce.vercel.app"
+          "github": "https://github.com/Flavionz/casa-steph-iberico",
+          "demo": "https://casa-steph-iberico.vercel.app"
         },
         "githubLabel": "Source Code",
         "demoLabel": "Demo"
