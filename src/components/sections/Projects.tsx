@@ -38,7 +38,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                     WIP
                 </span>
             )}
-            <div className="aspect-video w-full overflow-hidden">
+            <div
+                className="aspect-video w-full overflow-hidden cursor-pointer"
+                onClick={() => window.open(demoLink, '_blank')}
+            >
                 <img
                     src={image}
                     alt={title}

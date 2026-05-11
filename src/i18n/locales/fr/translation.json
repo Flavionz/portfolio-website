@@ -99,7 +99,7 @@
     "items": [
       {
         "title": "Casa Steph Iberico",
-        "description": "Plateforme e-commerce Full-Stack en production pour une épicerie fine locale de la région de Metz spécialisée en charcuterie & fromages ibériques premium. 33 endpoints REST, 5 modèles Prisma sur PostgreSQL, authentification JWT avec rate limiting et headers de sécurité Helmet, paiement Stripe, dashboard admin (produits/commandes/utilisateurs), upload Cloudinary, système de livraison par zones, emails transactionnels et génération de factures PDF via Nodemailer. 31 tests de sécurité automatisés avec Jest et Supertest. Déployé sur Vercel + Render + Neon PostgreSQL.",
+        "description": "Plateforme e-commerce Full-Stack en production pour une gastronomie locale de Metz spécialisée en charcuterie & fromages ibériques premium. 34 endpoints REST, 5 modèles Prisma sur PostgreSQL (User, Order, Product, Category, FeaturedProduct), authentification JWT avec vérification email, réinitialisation de mot de passe et rate limiting, paiements SumUp (flow manuel par lien sécurisé), dashboard admin complet (produits/commandes/utilisateurs/vitrines), notifications in-app avec polling et alertes email pour nouvelles commandes, système de livraison par zones avec calcul automatique des frais, 10 emails transactionnels (Nodemailer), génération de factures PDF (PDFKit) avec décomposition TVA, upload d'images Cloudinary, 7 statuts de commande avec flow distinct paiement en ligne vs espèces. 11 tests de sécurité automatisés avec Jest et Supertest. Déployé sur Vercel + Render + Neon PostgreSQL. Domaine : casasteph.fr",
         "tags": [
           "React",
           "TypeScript",
@@ -111,10 +111,10 @@
         ],
         "links": {
           "github": "https://github.com/Flavionz/casa-steph-iberico",
-          "demo": "https://casa-steph-iberico.vercel.app"
+          "demo": "https://casasteph.fr"
         },
         "githubLabel": "Code Source",
-        "demoLabel": "Demo"
+        "demoLabel": "Live"
       },
       {
         "title": "Pax Canina",

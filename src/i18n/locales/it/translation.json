@@ -99,7 +99,7 @@
     "items": [
       {
         "title": "Casa Steph Iberico",
-        "description": "Piattaforma e-commerce Full-Stack in produzione per una gastronomia locale della regione di Metz specializzata in salumi & formaggi iberici premium. 33 endpoint REST, 5 modelli Prisma su PostgreSQL, autenticazione JWT con rate limiting e header di sicurezza Helmet, checkout Stripe, dashboard admin (prodotti/ordini/utenti), upload Cloudinary, sistema di consegna a zone, email transazionali e generazione fatture PDF via Nodemailer. 31 test di sicurezza automatizzati con Jest e Supertest. Deploy su Vercel + Render + Neon PostgreSQL.",
+        "description": "Piattaforma e-commerce Full-Stack in produzione per una gastronomia locale di Metz specializzata in salumi & formaggi iberici premium. 34 endpoint REST, 5 modelli Prisma su PostgreSQL (User, Order, Product, Category, FeaturedProduct), autenticazione JWT con email verification, reset password e rate limiting, pagamenti SumUp (flow manuale link sicuro), dashboard admin completa (prodotti/ordini/utenti/vetrine), notifiche in-app con polling e alerting email per nuovi ordini, sistema di consegna a zone con calcolo fee automatico, 10 email transazionali (Nodemailer), generazione fatture PDF (PDFKit) con breakdown TVA, upload immagini Cloudinary, 7 stati ordine con flow distinto per pagamento online vs contanti. 11 test di sicurezza automatizzati con Jest e Supertest. Deploy su Vercel + Render + Neon PostgreSQL. Dominio: casasteph.fr",
         "tags": [
           "React",
           "TypeScript",
@@ -111,10 +111,10 @@
         ],
         "links": {
           "github": "https://github.com/Flavionz/casa-steph-iberico",
-          "demo": "https://casa-steph-iberico.vercel.app"
+          "demo": "https://casasteph.fr"
         },
         "githubLabel": "Codice Sorgente",
-        "demoLabel": "Demo"
+        "demoLabel": "Live"
       },
       {
         "title": "Pax Canina",
